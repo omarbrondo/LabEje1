@@ -2,9 +2,9 @@
 public class main {
 
 	 public static void main(String[] args) {
-	        Tecnico tecnico = new Tecnico("Juan Pérez", "12345678", 10);
-	        Administrativo administrativo = new Administrativo("María López", "87654321", 5000);
-	        Gerente gerente = new Gerente("Carlos Gómez", "11223344", 20);
+	        Tecnico tecnico = new Tecnico("Juan Perez", "12345678", 10);
+	        Administrativo administrativo = new Administrativo("Barbara Carrizo", "87654321", 5000);
+	        Gerente gerente = new Gerente("Omar Brondo", "11223344", 20);
 
 	        System.out.println("Empleado Técnico: " + tecnico.nombre + ", Salario: $" + tecnico.calcularSalario());
 	        System.out.println("Empleado Administrativo: " + administrativo.nombre + ", Salario: $" + administrativo.calcularSalario());
@@ -13,4 +13,3 @@ public class main {
 	        System.out.println("Total de empleados creados: " + Empleado.getContadorEmpleados());
 	    }
 }
-
